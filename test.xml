@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuites errors="0" failures="6" skipped="0" tests="6" time="23.2856025696">
+        <testsuite errors="0" failures="6" hostname="2.11.131" name="Docker_Test-2.11.130" package="Aurora-2.1" skipped="0" tests="6" time="23.2856025696" timestamp="20160325002123">
+                <testcase classname="Docker_Test-2.11.131" name="getFirmwareVersion" time="3.997680">
+                        <failure message="Execute command:[python getFirmwareVersion.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+                <testcase classname="Docker_Test-2.11.131" name="httpLogin" time="3.874188">
+                        <failure message="Execute command:[python httpLogin.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+                <testcase classname="Docker_Test-2.11.131" name="smbReadWriteAccess_bvt" time="3.923256">
+                        <failure message="Execute command:[python smbReadWriteAccess_bvt.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+                <testcase classname="Docker_Test-2.11.131" name="ftpReadWriteAccess_bvt" time="3.867420">
+                        <failure message="Execute command:[python ftpReadWriteAccess_bvt.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+                <testcase classname="Docker_Test-2.11.131" name="nfsReadWriteAccess_bvt" time="3.744132">
+                        <failure message="Execute command:[python nfsReadWriteAccess_bvt.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+                <testcase classname="Docker_Test-2.11.131" name="firmwareSelfUpgradeTest_bvt" time="3.878927">
+                        <failure message="Execute command:[python firmwareSelfUpgradeTest_bvt.py] failed! Error code:[1]" type="failure"/>
+                </testcase>
+        </testsuite>
+</testsuites>
